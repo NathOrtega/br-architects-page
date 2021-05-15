@@ -1,0 +1,45 @@
+:root {
+  --pageFont: 'Segoe UI', sans-serif;
+  --primaryColor: black;
+  --secondaryColor: gray;
+  --tertiaryColor: white;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--pageFont);
+}
+
+body {
+  margin: 0;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItemsContainerA {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center
+}
+
+.navItemsContainerB {
+  display: none;
+}
+
+.navLogo {
+  margin: 20px 0 20px 32px;
+  color: var(--primaryColor);
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.navItem {
+  margin: 20px 10px;
+  color: var(--primaryColor);
+  font-size: larger;
+}
