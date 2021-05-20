@@ -83,6 +83,10 @@ body {
   border-bottom: 1px solid rgba(148, 144, 144, 0.2);
 }
 
+.subtitle {
+  color: var(--secondaryColor);
+}
+
 .projectsContainer {
   display: flex;
   flex-direction: column;
@@ -133,5 +137,85 @@ body {
   padding: 16px;
   margin: 0;
   background-color: var(--primaryColor);
+  color: var(--tertiaryColor);
+}
+
+.paragraph {
+  margin: 0 30px 30px;
+}
+
+.teamMemberInfoContainer {
+  margin: auto;
+  width: 315px;
+  height: fit-content;
+}
+
+.title--margin {
+  margin: 0;
+}
+
+.teamMemberPic {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contactButton {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 26px;
+  outline: none;
+  border: none;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 315px;
+  height: fit-content;
+  margin: 0 30px;
+}
+
+.textInput {
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  border: 1px solid var(--secondaryColor);
+  width: 100%;
+}
+
+.sendButton {
+  margin: 10px 30px;
+  padding: 10px;
+  border: none;
+  background-color: var(--primaryColor);
+  color: var(--tertiaryColor);
+  font-size: large;
+}
+
+.map {
+  margin: 30px;
+  width: 315px;
+  height: 215px;
+  background-image: url(./Resources/map.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primaryColor);
+}
+
+.footer {
+  color: var(--tertiaryColor);
+}
+
+.footerLink {
   color: var(--tertiaryColor);
 }
