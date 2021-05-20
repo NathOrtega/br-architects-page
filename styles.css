@@ -185,7 +185,7 @@ body {
 }
 
 .sendButton {
-  margin: 10px 30px;
+  margin: 10px 0;
   padding: 10px;
   border: none;
   background-color: var(--primaryColor);
@@ -218,4 +218,62 @@ body {
 
 .footerLink {
   color: var(--tertiaryColor);
+}
+
+@media screen and (min-width:768px){
+  .navItemsContainerB {
+    display: flex;
+  }
+
+  .navLogo {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .navItem {
+    margin-right: 20px;
+  }
+
+  .bannerContainer {
+    height: 400px;
+    background-size: cover;
+    object-fit:cover;
+  }
+
+  .mainTitle {
+    display: inline;
+    color: var(--tertiaryColor);
+    margin: 10px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .teamMembersContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contactForm {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+  }
+
+  .textInput {
+    width: 100%;
+  }
+
+  .map {
+    width: 90%;
+    height: 508px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
