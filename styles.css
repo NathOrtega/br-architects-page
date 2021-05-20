@@ -1,7 +1,7 @@
 :root {
   --pageFont: 'Segoe UI', sans-serif;
   --primaryColor: black;
-  --secondaryColor: rgb(148, 146, 146);
+  --secondaryColor: rgb(196, 194, 194);
   --tertiaryColor: white;
 }
 
@@ -272,8 +272,57 @@ body {
 
   .map {
     width: 90%;
-    height: 508px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .navItemsContainerA {
+    padding: 10px;
+    height: fit-content;
+  }
+
+  .navItemsContainerA:hover {
+    background-color: var(--secondaryColor);
+    cursor: pointer;
+  }
+
+  .navItem--padding {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .navItem--padding:hover {
+    background-color: var(--secondaryColor);
+  }
+
+  .bannerContainer {
+    height: 550px;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .teamMembersContainer {
+    margin: 0 20px;
+  }
+
+  .contactButton:hover {
+    cursor: pointer;
+    border: 1px solid var(--primaryColor);
+  }
+
+  .contactForm {
+    width: 95%;
+  }
+
+  .sendButton:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .map {
+    width: 95%;
   }
 }
