@@ -1,7 +1,7 @@
 :root {
   --pageFont: 'Segoe UI', sans-serif;
   --primaryColor: black;
-  --secondaryColor: gray;
+  --secondaryColor: rgb(148, 146, 146);
   --tertiaryColor: white;
 }
 
@@ -18,13 +18,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
 }
 
 .navItemsContainerA {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .navItemsContainerB {
@@ -32,14 +37,101 @@ body {
 }
 
 .navLogo {
-  margin: 20px 0 20px 32px;
+  margin: 0;
   color: var(--primaryColor);
   font-weight: bolder;
   font-size: larger;
 }
 
 .navItem {
-  margin: 20px 10px;
+  margin: 0;
   color: var(--primaryColor);
   font-size: larger;
+}
+
+.bannerContainer {
+  background-image: url(./Resources/banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  background-position: bottom;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTitle {
+  display: none;
+}
+
+.bannerLogo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.title {
+  margin: 16px 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(148, 144, 144, 0.2);
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.projectContainer {
+  margin: 10px 0;
+  width: 315px;
+  height: 215px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.summerHouse {
+  background-image: url(./Resources/summerHouse.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.brickHouse {
+  background-image: url(./Resources/brickHouse.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.renovatedHouse {
+  background-image: url(./Resources/renovatedHouse.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.barnHouse {
+  background-image: url(./Resources/barnHouse.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.projectName {
+  padding: 16px;
+  margin: 0;
+  background-color: var(--primaryColor);
+  color: var(--tertiaryColor);
 }
